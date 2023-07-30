@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Знакомство с HTML тегами. Часть № 3 (Формы)</title>
+  </head>
+  <body>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <div>
+      <input type="text" name="username" value="" />
+    </div>
+    <div>
+      <input type="password" name="userpass" value="" />
+    </div>
+    <div>
+      <p>
+        <input checked type="radio" name="sweet" value="chocolate" /> Шоколадные
+        конфеты
+      </p>
+      <p>
+        <input type="radio" name="sweet" value="caramel" /> Карамельные конфеты
+      </p>
+    </div>
+    <br />
+    <div>
+      <p>
+        <input type="radio" name="sweet2" value="chocolate" /> Шоколадные
+        конфеты
+      </p>
+      <p>
+        <input checked type="radio" name="sweet2" value="caramel" /> Карамельные
+        конфеты
+      </p>
+      <br />
+      <div>
+        <p><input checked type="checkbox" name="car" value="yes" /> Наличие авто</div></p>
+        <p><input type="checkbox" name="car2" value="yes" /> Наличие авто2</div></p>
+        <p><input checked type="checkbox" name="car3" value="yes" /> Наличие авто3</div></p>
+        <p><input type="checkbox" name="car4" value="yes" /> Наличие авто4</div></p>
+    </div>
+    <br>
+    <div>
+      <p><input type="file" name="foto"/> </p>
+    </div>
+    <br>
+    <div>
+      <textarea name="text"></textarea>
+    </div>
+    <br>
+    <div>
+      <select name="color">
+      <option value="red"> Красный</option>
+      <option selected value="yellow"> Желтый</option>
+      <option value="blue"> Голубой</option>
+      <option value="black"> Черный</option>
+    </select>
+    </div>
+    <br>
+    <div>
+      <button type="reset">Отправить</button>
+    </div>
+  </form>
+  </body>
+</html>
